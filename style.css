@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}/*
+*: elemento global
+margin: margem
+*/
+
+header {
+    padding: 4rem;
+    background: blueviolet;
+}/*padding: distância entre um elemento e a borda*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}/*flex: os elementos ficam um do lado do outro
+space-between: os elementos ficam nas extremidades laterais opostas um do outro
+align-items: alinhar no centro principal*/
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: .8rem;
+}/*list-style: marcadores da lista
+gap: separação entre os elementos*/
+
+ul li:last-child{
+    padding: .8rem;
+    color: rgb(190, 13, 117);
+    background: aqua;
+}/*ul li:last-child: último li presente na tag ul*/
